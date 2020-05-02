@@ -3,200 +3,50 @@ import Head from 'next/head'
 const Home = () => (
   <div className="container">
     <Head>
-      <title>Create Next App</title>
-      <link rel="icon" href="/favicon.ico" />
+      <link href="https://fonts.googleapis.com/css?family=Rubik:500,700%7CMerriweather%7CFira+Mono&amp;display=swap" rel="stylesheet"></link>
     </Head>
-
-    <main>
-      <h1 className="title">
-        Welcome to <a href="https://nextjs.org">Next.js!</a>
-      </h1>
-
-      <p className="description">
-        Get started by editing <code>pages/index.js</code>
-      </p>
-
-      <div className="grid">
-        <a href="https://nextjs.org/docs" className="card">
-          <h3>Documentation &rarr;</h3>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a href="https://nextjs.org/learn" className="card">
-          <h3>Learn &rarr;</h3>
-          <p>Learn about Next.js in an interactive course with quizzes!</p>
-        </a>
-
-        <a
-          href="https://github.com/zeit/next.js/tree/master/examples"
-          className="card"
-        >
-          <h3>Examples &rarr;</h3>
-          <p>Discover and deploy boilerplate example Next.js projects.</p>
-        </a>
-
-        <a
-          href="https://zeit.co/new?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          className="card"
-        >
-          <h3>Deploy &rarr;</h3>
-          <p>
-            Instantly deploy your Next.js site to a public URL with ZEIT Now.
-          </p>
-        </a>
-      </div>
-    </main>
-
-    <footer>
-      <a
-        href="https://zeit.co?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Powered by <img src="/zeit.svg" alt="ZEIT Logo" />
-      </a>
-    </footer>
-
-    <style jsx>{`
-      .container {
-        min-height: 100vh;
-        padding: 0 0.5rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-
-      main {
-        padding: 5rem 0;
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-
-      footer {
-        width: 100%;
-        height: 100px;
-        border-top: 1px solid #eaeaea;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
-      footer img {
-        margin-left: 0.5rem;
-      }
-
-      footer a {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
-      a {
-        color: inherit;
-        text-decoration: none;
-      }
-
-      .title a {
-        color: #0070f3;
-        text-decoration: none;
-      }
-
-      .title a:hover,
-      .title a:focus,
-      .title a:active {
-        text-decoration: underline;
-      }
-
-      .title {
-        margin: 0;
-        line-height: 1.15;
-        font-size: 4rem;
-      }
-
-      .title,
-      .description {
-        text-align: center;
-      }
-
-      .description {
-        line-height: 1.5;
-        font-size: 1.5rem;
-      }
-
-      code {
-        background: #fafafa;
-        border-radius: 5px;
-        padding: 0.75rem;
-        font-size: 1.1rem;
-        font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-          DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-      }
-
-      .grid {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-
-        max-width: 800px;
-        margin-top: 3rem;
-      }
-
-      .card {
-        margin: 1rem;
-        flex-basis: 45%;
-        padding: 1.5rem;
-        text-align: left;
-        color: inherit;
-        text-decoration: none;
-        border: 1px solid #eaeaea;
-        border-radius: 10px;
-        transition: color 0.15s ease, border-color 0.15s ease;
-      }
-
-      .card:hover,
-      .card:focus,
-      .card:active {
-        color: #0070f3;
-        border-color: #0070f3;
-      }
-
-      .card h3 {
-        margin: 0 0 1rem 0;
-        font-size: 1.5rem;
-      }
-
-      .card p {
-        margin: 0;
-        font-size: 1.25rem;
-        line-height: 1.5;
-      }
-
-      @media (max-width: 600px) {
-        .grid {
-          width: 100%;
-          flex-direction: column;
-        }
-      }
-    `}</style>
-
-    <style jsx global>{`
-      html,
-      body {
-        padding: 0;
-        margin: 0;
-        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-          Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-      }
-
-      * {
-        box-sizing: border-box;
-      }
-    `}</style>
+    <ul>
+      <li>
+        <h2>1. Name the show based on a bestselling series of books? What city is it set around?</h2>
+        <img width="800" className="quiz-image" src="/images/4.jpg"></img>
+      </li>
+      <li>
+        <h2>2. This is the best show on TV right now. What's it called, and for an extra point, what game are they playing?</h2>
+        <img width="800" className="quiz-image" src="/images/1.jpg"></img>
+      </li>
+      <li>
+        <h2>3. Name this show about a 1980s sitcom star, or as Danie calls it, the "self-indulgent depressed horse" show</h2>
+        <img width="800" className="quiz-image" src="/images/2.jpg"></img>
+      </li>
+      <li>
+        <h2>4. Known for its heartstring-tugging storylines, this is one of the biggest shows in America. What is it called?</h2>
+        <img width="800" className="quiz-image" src="/images/6.jpg"></img>
+      </li>
+      <li>
+        <h2>5. This show is somehow more irritating than PAW Patrol yet Frances loves it. Name it.</h2>
+        <img width="800" className="quiz-image" src="/images/5.jpg"></img>
+      </li>
+      <li>
+        <h2>6. The show is Tiger King, but what are these characters called? 1/2 point for each</h2>
+        <img width="800" className="quiz-image" src="/images/7.jpg"></img>
+      </li>
+      <li>
+        <h2>7. What's the BBC TV show that ended in 2019, and who is the actor playing the lead character?</h2>
+        <img width="800" className="quiz-image" src="/images/8.jpg"></img>
+      </li>
+      <li>
+        <h2>8. Name this TV show Fred insists on watching? 1 point if you're near, an extra point for the full title</h2>
+        <img width="800" className="quiz-image" src="/images/9.jpg"></img>
+      </li>
+      <li>
+        <h2>9. Name the TV show from last year based on a 2014 film, a vampire mockumentary?</h2>
+        <img width="800" className="quiz-image" src="/images/10.jpg"></img>
+      </li>
+      <li>
+        <h2>10. It's PAW Patrol! Half a point for each character pictured; extra half point if you get them all</h2>
+        <img width="800" className="quiz-image" src="/images/3.jpg"></img>
+      </li>
+    </ul>
   </div>
 )
 

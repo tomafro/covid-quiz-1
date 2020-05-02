@@ -1,0 +1,16 @@
+body, h2 {
+  font-family: 'Rubik';
+  font-weight: bold;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 4em;
+}
+
+.container {
+  width: 800px;
+}
